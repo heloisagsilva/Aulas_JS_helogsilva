@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script>
+        function myFunction(){
+            var x;
+            var idade=prompt("Digite a sua idade:");
+
+            if(idade!=null){
+                x="idade: " + idade + " anos.";
+                document.getElementById("demo").innerHTML=x
+            }
+        }
+</script>
+</head>
+<body>
+    <p>Clique para exibir</p>
+    <button onclick="myFunction()"> Clique aqui</button>
+    <p id="demo"></p>
+</body>
+<address>
+    <center>
+        Heloisa Gonçalves da Silva/ Desenvolvimento de Sistemas 
+    </center>
+</address>
+</html>
